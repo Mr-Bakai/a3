@@ -1,6 +1,8 @@
+package assignment3;
+
 import java.util.Scanner;
 
-public class Main {
+public class LinerSearch {
     public static void main(String[] args) {
 
         int n = 5000;
