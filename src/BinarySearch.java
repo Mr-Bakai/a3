@@ -11,7 +11,7 @@ public class BinarySearch {
         int middle;
 
         Scanner in = new Scanner( System.in );
-        System.out.println( "Введите число: " );
+        System.out.println( "Enter your number: " );
         int num = in.nextInt( );
 
         while (last > first) {
@@ -32,7 +32,7 @@ public class BinarySearch {
         }
 
         if (resultOk) {
-            System.out.println( "Элемент найден: " + pos );
-        } else System.out.println( "Элемент не найден" );
+            System.out.println( "Element is found: " + pos );
+        } else System.out.println( "Element is not found" );
     }
 }
